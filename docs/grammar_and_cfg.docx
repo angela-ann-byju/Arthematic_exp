@@ -1,0 +1,35 @@
+Arithmetic Expression Compiler
+Context-Free Grammar (CFG) and Grammar Transformations
+
+1. Purpose
+The context-free grammar defines the syntax of arithmetic expressions accepted by the Arithmetic Expression Compiler.
+
+2. Grammar Productions
+E → E + T | E - T | T
+T → T * F | T / F | F
+F → (E) | id | num
+
+3. Non-terminals
+
+- E: Expression
+- T: Term
+- F: Factor
+
+4. Terminals
++, -, *, /, (, ), id, num
+Here, "id" represents an identifier and "num" represents a numeric constant.
+
+5. Operator Precedence
+Multiplication and division have higher precedence than addition and subtraction. Parentheses can be used to group expressions and control evaluation order.
+
+6. Grammar Transformation: Removal of Left Recursion
+The original grammar contains left recursion in the productions for E and T. A left-recursion-free form is:
+E → T E′
+E′ → + T E′ | - T E′ | ε
+T → F T′
+T′ → * F T′ | / F T′ | ε
+F → (E) | id | num
+Here, ε represents the empty production.
+
+7. Conclusion
+The grammar defines the structure of arithmetic expressions and establishes operator precedence. The transformed grammar removes immediate left recursion and may be suitable for predictive parsing.
