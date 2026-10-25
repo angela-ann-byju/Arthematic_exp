@@ -61,10 +61,10 @@ This project demonstrates the fundamental stages of compiler front-end design, i
 
 12. Team Contributions
 The project was developed collaboratively, with each team member responsible for a specific component.
-Ann Maria Mathew- Integration Core
-Anns Thomas- Lexical Analysis
-Angela Ann Byju- Grammar Parser
-Ayrin Anna Binu- Semantic Checks
-Albert Joseph- Documentation Architecture
-Alwin Pramod- Quality Assurance
+Ann Maria Mathew- Integration Core,
+Anns Thomas- Lexical Analysis,
+Angela Ann Byju- Grammar Parser,
+Ayrin Anna Binu- Semantic Checks,
+Albert Joseph- Documentation Architecture,
+Alwin Pramod- Quality Assurance,
 Each member contributed to their assigned component to support the development, integration, testing, and documentation of the Arithmetic Expression Compiler.
