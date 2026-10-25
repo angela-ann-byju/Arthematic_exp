@@ -73,8 +73,6 @@ Token next_token(void)
 
         t.type = TOK_ID;
     }
-
-    /* Recognize integer and decimal numbers */
     else if (isdigit((unsigned char)input[pos]) ||
              (input[pos] == '.' &&
               isdigit((unsigned char)input[pos + 1]))) {
@@ -95,7 +93,7 @@ Token next_token(void)
         t.type = TOK_NUM;
     }
 
-    /* Recognize operators and parentheses */
+    
     else {
         switch (input[pos]) {
             case '+': t.type = TOK_PLUS;   break;
