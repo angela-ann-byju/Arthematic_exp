@@ -6,6 +6,8 @@ Team module names:
 - Member 4: ast.c / ast.h (AST and semantic checks)
 - main.c: one entry point for the integrated program
 
+
+
 Compile (GCC):
     gcc main.c lexer.c parser.c ast.c -o mini_compiler
 
