@@ -60,4 +60,11 @@ For a valid arithmetic expression, the compiler should report successful syntax 
 This project demonstrates the fundamental stages of compiler front-end design, including token recognition, parsing, AST construction, and semantic checking, using the C programming language.
 
 12. Team Contributions
-Each team member's contribution should be documented according to the modules and tasks they actually completed.
+The project was developed collaboratively, with each team member responsible for a specific component.
+Ann Maria Mathew- Integration Core
+Anns Thomas- Lexical Analysis
+Angela Ann Byju- Grammar Parser
+Ayrin Anna Binu- Semantic Checks
+Albert Joseph- Documentation Architecture
+Alwin Pramod- Quality Assurance
+Each member contributed to their assigned component to support the development, integration, testing, and documentation of the Arithmetic Expression Compiler.
